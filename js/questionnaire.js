@@ -16,4 +16,6 @@ $("#questionnaire").submit(function( event ) {
   Cookies.set('teammates1', player[0]);
   Cookies.set('teammates2', player[1]);
   Cookies.set('teammates3', player[2]);
+
+  location.href='/result.html';
 });
