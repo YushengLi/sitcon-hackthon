@@ -5,7 +5,7 @@ function shuffle(o){
 $(document).ready(function() {
   name = Cookies.get('name');
 
-  var staff  = ["崑元", "Clarence", "Penny", "零葉", "蝦子", "莫風", "味噌", "泰泰", "PCC", "ZAL", "洋蔥", "腿骨", "松鼠", "Sunset", "靈夢", "JefferySAC", "球球", "Victor", "Beauty", "YW", "小米", "葉子", "Emma", "芥龍", "小寒", "阿哲", "克莉絲汀"];
+  staff  = ["崑元", "Clarence", "Penny", "零葉", "蝦子", "莫風", "味噌", "泰泰", "PCC", "ZAL", "洋蔥", "腿骨", "松鼠", "Sunset", "靈夢", "JefferySAC", "球球", "Victor", "Beauty", "YW", "小米", "葉子", "Emma", "芥龍", "小寒", "阿哲", "克莉絲汀"];
   var people = new Array();
   var action = new Array("一起美照三連拍", "對唱林俊傑的小酒窩", "對唱「找不到」", "一起芭蕾舞三連拍", "肚子磨肚子", "互相地趴", "互相壁咚", "公主抱", "臉貼臉五秒鐘", "一起重現開源魔法少女", "一起表演濕滑變臉", "跟台大開源的兩屆社長一起拍女神三連拍", "找十個人一起做村長的招牌動作", "跟活動組長一起可愛三連拍");
 
