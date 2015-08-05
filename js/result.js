@@ -13,25 +13,25 @@ $(document).ready(function() {
   action = shuffle(action);
   staff  = shuffle(staff);
 
-  if(name == "undefined" || name == null ) {
+  if(name == "undefined" || name == null || name == "" ) {
     $('span#gameplayer1').html(staff[0]);
   } else {
     $('span#gameplayer1').html(name);
   }
 
-  if(Cookies.get('teammates1') == "undefined" || Cookies.get('teammates1') == null) {
+  if(Cookies.get('teammates1') == "undefined" || Cookies.get('teammates1') == null || Cookies.get('teammates1') == "") {
       people.push(staff[1]);
   } else {
     people.push(Cookies.get('teammates1'));
   }
 
-  if(Cookies.get('teammates2') == "undefined" || Cookies.get('teammates2') == null) {
+  if(Cookies.get('teammates2') == "undefined" || Cookies.get('teammates2') == null || Cookies.get('teammates2') == "") {
       people.push(staff[2]);
   } else {
     people.push(Cookies.get('teammates2'));
   }
 
-  if(Cookies.get('teammates3') == "undefined" || Cookies.get('teammates3') == null) {
+  if(Cookies.get('teammates3') == "undefined" || Cookies.get('teammates3') == null || Cookies.get('teammates3') == "") {
       people.push(staff[3]);
   } else {
     people.push(Cookies.get('teammates3'));
